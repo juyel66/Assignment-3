@@ -468,11 +468,68 @@
                 </div>
 
 
-                <div class="flex gap-7 my-16">
 
 
-                  <div class="space-y-8">
-                    <div class="bg-[#BCED6D1A] h-[170px]  w-[300px]">
+                <div class="flex gap-5 lg:gap-20 flex-col lg:flex-row mt-10">
+                  <div class=" grid grid-cols-1 gap-6 border-2 border rounded-xl lg:w-[390px] lg:h-[700px] p-8 mb-2">
+                      <div class=" w-80 p-8 bg-[#BCED6D1A] space-y-6 rounded-2xl">
+                          <figure><img src="./Images/Group 1171275317.png" alt="call" /></figure>
+                          <div class="">
+                              <h2 class=" text-xl font-bold ">
+                                  <span class="text-[#1313184D] text-xs font-extrabold ">Phone Number :</span> <br>
+                                  (+62) 123-321-543</h2>
+                          </div>
+                      </div>
+                      <div class=" w-80 p-8 bg-[#FDDD5F1A] space-y-6 rounded-2xl">
+                          <figure><img src="./Images/Group 1171275318.png" alt="call" /></figure>
+                          <div class="">
+                              <h2 class=" text-xl font-bold ">
+                                  <span class="text-[#1313184D] text-xs font-extrabold ">Email :</span> <br>
+                                  hockeys@support.com</h2>
+                          </div>
+                      </div>
+                      <div class=" w-80 p-8 bg-[#629CF31A] space-y-6 rounded-2xl">
+                          <figure><img src="./Images/Group 1171275321.png" alt="call" /></figure>
+                          <div class="">
+                              <h2 class=" text-xl font-bold ">
+                                  <span class="text-[#1313184D] text-xs font-extrabold ">Location :</span> <br>
+                                  152/1 Mohakhali  Gate</h2>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="grid gap-6 grid-cols-1 lg:grid-cols-2">
+                     <div class="space-y-4">
+                      <h3 class="text-xl font-bold text-[#131318]">Your Name</h3>
+                      <input type="text" placeholder="Enter your full name" class=" h-16 w-full lg:w-96 rounded-xl p-5 bg-[#13131808]">
+                     </div>
+                      <div class="space-y-4">
+                          <h3 class="text-xl font-bold text-[#131318]">Your Email</h3>
+                          <input type="email" placeholder="Enter your email" class=" h-16 w-full lg:w-96 rounded-xl p-5 bg-[#13131808]">
+                      </div>
+                     <div class="space-y-4">
+                      <h3 class="text-xl font-bold text-[#131318]">Subject</h3>
+                      <input type="text" placeholder="Enter your subject" class=" h-16 w-full lg:w-96 rounded-xl p-5 bg-[#13131808]">
+                     </div>
+                      <div class="space-y-4">
+                          <h3 class="text-xl font-bold text-[#131318]">Phone Number</h3>
+                          <input type="text" placeholder="Enter your phone number" class=" h-16 w-full lg:w-96 rounded-xl p-5 bg-[#13131808]">
+                      </div>
+                      <div class="lg:col-span-2 space-y-4">
+                          <h3 class="text-xl font-bold text-[#131318]">Message</h3>
+                          <textarea name="" id="" lg:cols="88" rows="10" placeholder="Write your message" class="bg-[#13131808] rounded-xl p-5 w-full"></textarea>
+                      </div>
+                      <div class="lg:col-span-2">
+                          <button class="btn btn-primary w-full text-xl font-bold ">Send Message</button>
+                      </div>
+                  </div>
+              </div>
+
+
+
+<!-- 
+                <div class="grid lg:grid-cols-2 grid-cols-1 gap-7 my-16">
+                  <div class="space-y-8 border rounded-xl items-center">
+                    <div class="bg-[#BCED6D1A] h-[220px] p-8 w-[500px]">
                       <div >
                         <div>
                           <img src="Images/call.svg" alt="">
@@ -484,7 +541,7 @@
                       </div>
                     </div>
   
-                    <div class="bg-[#FDDD5F1A] h-[170px]  w-[300px]">
+                    <div class="bg-[#FDDD5F1A] h-[220px] p-8  w-[500px]">
                       <div >
                         <div>
                           <img src="Images/msg.svg" alt="">
@@ -496,7 +553,7 @@
                       </div>
                     </div>
 
-                    <div class="bg-[#629CF31A] h-[170px]  w-[300px]">
+                    <div class="bg-[#629CF31A] h-[220px] p-8 w-[500px]">
                       <div >
                         <div>
                           <img src="Images/map.svg" alt="">
@@ -512,62 +569,43 @@
 
 
 
-                  <div class="flex gap-7">
-
-                    <div>
-                      <div>
-                        <label class="form-control w-full max-w-xs">
-                          <div class="label">
-                            <span class="label-text">What is your name?</span>
-                          </div>
-                          <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
-                        </label>
+                  <div class="grid lg:grid-cols-2 grid-cols-1 gap-9">
+                    <label class=" form-control lg:w-full ">
+                      <div class="label">
+                        <span class="label-text">What is your name?</span>
                       </div>
-
-                      <div>
-                        <label class="form-control w-full max-w-xs">
-                          <div class="label">
-                            <span class="label-text">What is your name?</span>
-                          </div>
-                          <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
-                        </label>
+                      <input type="text" placeholder="Type here" class="input input-bordered w-full " />
+                    </label>
+                    <label class="form-control w-full ">
+                      <div class="label">
+                        <span class="label-text">What is your name?</span>
                       </div>
-
-                    </div>
-                    <div>
-
-                      <div>
-                        <label class="form-control w-full max-w-xs">
-                          <div class="label">
-                            <span class="label-text">What is your name?</span>
-                          </div>
-                          <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
-                        </label>
+                      <input type="text" placeholder="Type here" class="input input-bordered w-full " />
+                    </label>
+                    <label class="form-control w-full ">
+                      <div class="label">
+                        <span class="label-text">What is your name?</span>
                       </div>
-
-                      <div>
-                        <label class="form-control w-full max-w-xs">
-                          <div class="label">
-                            <span class="label-text">What is your name?</span>
-                          </div>
-                          <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
-                        </label>
+                      <input type="text" placeholder="Type here" class="input input-bordered w-full " />
+                    </label>
+                    <label class="form-control w-full ">
+                      <div class="label">
+                        <span class="label-text">What is your name?</span>
                       </div>
-                    </div>
+                      <input type="text" placeholder="Type here" class="input input-bordered w-full " />
+                    </label>
+                    <h1 class="text-xl font-extrabold">Massage</h1>
                     
-                  </div> 
+                    <div class=" lg:col-span-2  border lg:rounded-xl">
+                      <textarea name="" id="" placeholder="Write a massage" lg:cols="80" cols="47" rows="10"></textarea>
+                    </div>
+                    <button class="btn btn-primary lg:col-span-2 ">Send Massage</button>
 
+                  </div> -->                
                   
-                  
 
 
-                  
-                  
-
-
-
-                </div>
-                
+             </div>
               </section>
 
 
